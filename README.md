@@ -1,4 +1,10 @@
-KCFinder for Yii2
+**KCFinder for Yii2** 
+
+***Forked from [iutbay/yii2-kcfinder]***
+
+dependency frozen for `sunhater/kcfinder` tag `3.12`, as there is a problem with the last `3.20-test*` tag at `composer install`
+
+Originally forked from [iutbay/yii2-kcfinder] (original readme below)
 =================
 
 [KCFinder](http://kcfinder.sunhater.com/) for Yii2.

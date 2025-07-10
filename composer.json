@@ -1,6 +1,6 @@
 {
-	"name": "iutbay/yii2-kcfinder",
-	"description": "KCFinder for Yii2",
+	"name": "devrundebug/yii2-kcfinder",
+	"description": "KCFinder for Yii2 (frozen dependency to sunhater/kcfinder)",
 	"keywords": ["yii2", "extension", "kcfinder"],
 	"homepage": "https://github.com/iutbay/yii2-kcfinder",
 	"type": "yii2-extension",
@@ -8,10 +8,14 @@
 		{
 			"name": "Kevin LEVRON",
 			"email": "kevin.levron@gmail.com"
+		},
+		{
+			"name": "devrundebug",
+			"email": "devrundebug@gmail.com"
 		}
 	],
 	"require": {
-		"sunhater/kcfinder": "*",
+		"sunhater/kcfinder": "3.12",
 		"yiisoft/yii2-bootstrap": "*",
 		"yiisoft/yii2-jui": "*",
 		"iutbay/yii2-fontawesome" : "dev-master"
