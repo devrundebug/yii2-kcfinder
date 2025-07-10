@@ -1,32 +1,36 @@
 {
 	"name": "devrundebug/yii2-kcfinder",
-	"description": "KCFinder for Yii2 (frozen dependency to sunhater/kcfinder)",
-	"keywords": ["yii2", "extension", "kcfinder"],
-	"homepage": "https://github.com/iutbay/yii2-kcfinder",
+	"description": "KCFinder integration for Yii2 (frozen to upstream tag 3.12)",
 	"type": "yii2-extension",
+	"homepage": "https://github.com/devrundebug/yii2-kcfinder",
+	"keywords": ["yii2", "extension", "kcfinder"],
+	"license": "MIT",
+
 	"authors": [
-		{
-			"name": "Kevin LEVRON",
-			"email": "kevin.levron@gmail.com"
-		},
-		{
-			"name": "devrundebug",
-			"email": "devrundebug@gmail.com"
-		}
+		{ "name": "Kevin LEVRON", "email": "kevin.levron@gmail.com" },
+		{ "name": "devrundebug", "email": "devrundebug@gmail.com" }
 	],
+
 	"repositories": [
 		{
 			"type": "vcs",
 			"url": "https://github.com/sunhater/kcfinder"
 		}
 	],
+
 	"require": {
-		"sunhater/kcfinder": "3.12",
-		"yiisoft/yii2-bootstrap": "*",
-		"yiisoft/yii2-jui": "*",
-		"iutbay/yii2-fontawesome" : "dev-master"
+		"sunhater/kcfinder": "dev-master#3.12",
+		"yiisoft/yii2-bootstrap": "^2.0",
+		"yiisoft/yii2-jui": "^2.0",
+		"iutbay/yii2-fontawesome": "dev-master"
 	},
+
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+
 	"autoload": {
-		"psr-4": {"iutbay\\yii2kcfinder\\": ""}
+		"psr-4": {
+			"iutbay\\yii2kcfinder\\": ""
+		}
 	}
 }
