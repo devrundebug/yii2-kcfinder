@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
 class KCFinderWidgetAsset extends AssetBundle
 {
 
-    public $sourcePath = '@vendor/iutbay/yii2-kcfinder/assets';
+    public $sourcePath = '@vendor/devrundebug/yii2-kcfinder/assets';
     public $publishOptions = [
         'forceCopy' => YII_DEBUG,
     ];
