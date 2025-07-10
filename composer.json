@@ -19,7 +19,7 @@
 	],
 
 	"require": {
-		"sunhater/kcfinder": "dev-master#3.12",
+		"devrundebug/kcfinder": "dev-master",
 		"yiisoft/yii2-bootstrap": "^2.0",
 		"yiisoft/yii2-jui": "^2.0",
 		"iutbay/yii2-fontawesome": "dev-master"
