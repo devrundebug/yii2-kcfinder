@@ -11,13 +11,6 @@
 		{ "name": "devrundebug", "email": "devrundebug@gmail.com" }
 	],
 
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/sunhater/kcfinder"
-		}
-	],
-
 	"require": {
 		"devrundebug/kcfinder": "dev-master",
 		"yiisoft/yii2-bootstrap": "^2.0",
